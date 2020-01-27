@@ -1,0 +1,8 @@
+version: "3.4"
+volumes:
+  data:
+services:
+  react_responsivo:
+    build: ./
+    ports:
+      - 81:80
